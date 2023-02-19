@@ -1,0 +1,253 @@
+html {
+  background-image: url('https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 95px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+img {
+  width: 400px !important;
+  height: 300px !important;
+}
+
+p.navbar-brand {
+  font-size: 25px;
+}
+
+p.description {
+  text-align: left;
+}
+
+p.brand {
+  font-size: 40px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #EAEDED;
+  border-radius: 15px;
+  text-shadow: 5px 5px 10px black;
+  backdrop-filter: blur(10px);
+}
+
+.hOne {
+  -webkit-animation: fadein 7s;
+}
+
+.par {
+  -webkit-animation: fadein 15s;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+  letter-spacing: 5px;
+  /* background-color: #EAEDED; */
+  /* https://cssgradient.io/ */
+  background: linear-gradient(180deg, rgba(234, 237, 237, 1) 90%, rgba(37, 36, 36, 1) 100%);
+}
+
+.navbar-nav li a:hover {
+  color: #17202A !important;
+  font-size: 15px;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* background-color: #EAEDED; */
+  background: linear-gradient(180deg, rgba(37, 36, 36, 1) 0%, rgba(234, 237, 237, 1) 10%);
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.bs-example {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-bottom: 100px;
+  transform: translate(-50%, -20%);
+  text-align: center;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.thumbnail {
+  padding-bottom: 30px;
+}
+
+.contact-icon {
+  margin: 20px;
+  width: 45px !important;
+  height: 45px !important;
+}
+
+.contact-icon:hover {
+  color: white !important;
+  margin: 20px;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.labelWithIcon .icon {
+  display: none;
+}
+
+.labelWithIcon:hover .icon {
+  display: flex;
+}
+
+#facebook-icon {
+  color: #4267B2;
+}
+
+#linkedin-icon {
+  color: #0077b5;
+}
+
+#mail-icon {
+  color: #EA4335;
+}
+
+#phone-icon {
+  color: #00b300;
+}
+
+#gitIcon, .joke-site-icon {
+  width: 25px !important;
+  height: 25px !important;
+  color: black;
+  float: right;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#gitIcon:hover, .joke-site-icon:hover {
+  width: 30px !important;
+  height: 30px !important;
+  color: #999999;
+}
+
+#home-div {
+  width: 800px;
+  height: 200px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  span {
+    width: 40px !important;
+    height: 5px !important;
+  }
+
+  .bs-example {
+    top: 700px;
+    padding-bottom: 250px;
+    width: 600px;
+  }
+
+  .navbar {
+    height: 210px;
+  }
+
+  .footer {
+    height: 210px;
+  }
+
+  .footer p {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+
+  p.navbar-brand {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    margin-top: 50px;
+    padding: 15px;
+    border-width: 4px;
+    border-color: rgba(37, 36, 36, 1);
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .bs-example {
+    z-index: -1;
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(37, 36, 36, 1);
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav>li {
+    float: none;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in {
+    display: block !important;
+    background-color: rgba(234, 237, 237, 1);
+  }
+}

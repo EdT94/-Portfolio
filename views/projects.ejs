@@ -1,0 +1,151 @@
+<%- include("partials/header"); -%>
+
+<div class="bs-example" data-example-id="thumbnails-with-custom-content">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <div class="thumbnail">
+        <img src="https://user-images.githubusercontent.com/81565589/219613876-9b70cccd-4a56-4ebd-beb6-d68ba4ec0ee3.PNG" class="airportManagerSlide w3-animate-fading">
+        <img src="https://user-images.githubusercontent.com/81565589/219614014-6bb7b26b-b4b9-4534-a628-8b8f8d5bfef9.PNG" class="airportManagerSlide w3-animate-fading">
+        <img src="https://user-images.githubusercontent.com/81565589/219614072-cc2c2636-ad26-48b2-9d35-bd8185dd2f6d.PNG" class="airportManagerSlide w3-animate-fading">
+		<img src="https://user-images.githubusercontent.com/81565589/219614153-e3a3d756-c35c-433e-acf1-4f7506b528bc.PNG" class="airportManagerSlide w3-animate-fading">
+
+        <div class="caption">
+          <h3>Airport Manager</h3>
+          <p class="description">The system reads data about airports and companies from txt/bin files(if exists).There are an options for adding flights and airports, sorting and searching flights,and see all the data.</p>
+          <a href="https://github.com/EdT94/Airport_Manager"><i class="fab fa-github" id="gitIcon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <div class="thumbnail">
+        <img src='https://user-images.githubusercontent.com/81565589/201537178-d48e9f7e-b937-4723-bcf0-e68214033fb7.PNG' class="electionRoundSlide w3-animate-fading">
+        <img src='https://user-images.githubusercontent.com/81565589/201537203-f06b02c4-4b32-4334-a8a4-da60e2e089e9.PNG' class="electionRoundSlide w3-animate-fading">
+        <img src='https://user-images.githubusercontent.com/81565589/201537217-35b7b006-179e-472d-aa2e-183d7309713a.PNG' class="electionRoundSlide w3-animate-fading">
+        <img src='https://user-images.githubusercontent.com/81565589/201537227-47530f93-14e0-4442-abce-4b8353b05662.PNG' class="electionRoundSlide w3-animate-fading">
+		<img src='https://user-images.githubusercontent.com/81565589/201537235-0b41755b-3435-4e52-90f3-ffb0476c50eb.PNG' class="electionRoundSlide w3-animate-fading">
+		<img src='https://user-images.githubusercontent.com/81565589/201537251-288a9000-68aa-4a20-a7cf-81c3f0db69ac.PNG' class="electionRoundSlide w3-animate-fading">
+        <div class="caption">
+          <h3>Covid Elections</h3>
+          <p class="description">Election management system. Citizens, candidates, and parties can be added. Elections are held according to the types of polling stations(for isolated or not). Implemented in Java, using JavaFX.</p>
+          <a href="https://github.com/EdT94/Covid_Elections"><i class="fab fa-github" id="gitIcon"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <div class="thumbnail">
+        <img src='https://user-images.githubusercontent.com/81565589/219950210-e9fdb1e8-b8d4-4fae-b0da-cbe3e4662d8f.PNG' class="jokeSiteSlide w3-animate-fading">
+        <img src='https://user-images.githubusercontent.com/81565589/219950292-71a51649-0dc8-4e30-b4da-a61e1eb81f66.PNG' class="jokeSiteSlide w3-animate-fading">
+		<img src='https://user-images.githubusercontent.com/81565589/219950310-3d4365b0-7277-4511-b15a-240722f50fc7.PNG' class="jokeSiteSlide w3-animate-fading">
+        <div class="caption">
+          <h3>Joke Site</h3>
+          <p class="description">A simple "programming jokes" site,getting data from joke site using API,converts the data(JSON) and showing the jokes.</p>
+          <a href="https://github.com/EdT94/Joke_Site"><i class="fab fa-github" id="gitIcon"></i></a>
+          <a href="https://programming-jokes-edt94.herokuapp.com/"><img src="https://cdn-icons-png.flaticon.com/128/589/589975.png" class="joke-site-icon" id="gitIcon"></a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-6">
+      <div class="thumbnail">
+        <img src='https://user-images.githubusercontent.com/81565589/201545027-7ffb297f-49ec-429e-bebd-dafda425b194.PNG' class="sportChampionshipSlide w3-animate-fading">
+        <img src='https://user-images.githubusercontent.com/81565589/201545034-2f8aa6e2-8829-46dc-a5b7-bce5844db4b3.PNG' class="sportChampionshipSlide w3-animate-fading">
+        <img src='https://user-images.githubusercontent.com/81565589/201545036-9cb0ef7b-62c1-4fb1-9d8a-dfe8c2624e08.PNG' class="sportChampionshipSlide w3-animate-fading">
+        <img src='https://user-images.githubusercontent.com/81565589/201545044-bd63512e-9720-486e-b5b1-0aac8c0080e9.PNG' class="sportChampionshipSlide w3-animate-fading">
+        <div class="caption">
+          <h3>Sports Tournament</h3>
+          <p class="description">A sports tournament management system,implimented in Java,using JavaFX and MVC pattern.</p>
+          <a href="https://github.com/EdT94/Sports_Tournament"><i class="fab fa-github" id="gitIcon"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  var indexAM = 0;
+  var indexER = 0;
+  var indexJS = 0;
+  var indexSC = 0;
+  slideAM();
+  slideER();
+  slideJS();
+  slideSC();
+
+  function slideAM() {
+    var i;
+    var airportManagerImages = document.getElementsByClassName("airportManagerSlide");
+
+    for (i = 0; i < airportManagerImages.length; i++) {
+      airportManagerImages[i].style.display = "none";
+    }
+
+    indexAM++;
+    if (indexAM > airportManagerImages.length) {
+      indexAM = 1
+    }
+    airportManagerImages[indexAM - 1].style.display = "block";
+
+    setTimeout(slideAM, 4000);
+  }
+
+  function slideER() {
+    var i;
+    var electionRoundImages = document.getElementsByClassName("electionRoundSlide");
+
+    for (i = 0; i < electionRoundImages.length; i++) {
+      electionRoundImages[i].style.display = "none";
+    }
+
+    indexER++;
+    if (indexER > electionRoundImages.length) {
+      indexER = 1
+    }
+    electionRoundImages[indexER - 1].style.display = "block";
+
+    setTimeout(slideER, 4100);
+  }
+
+
+  function slideJS() {
+    var i;
+    var jokeSiteImages = document.getElementsByClassName("jokeSiteSlide");
+
+    for (i = 0; i < jokeSiteImages.length; i++) {
+      jokeSiteImages[i].style.display = "none";
+    }
+
+    indexJS++;
+    if (indexJS > jokeSiteImages.length) {
+      indexJS = 1
+    }
+    jokeSiteImages[indexJS - 1].style.display = "block";
+
+    setTimeout(slideJS, 4200);
+  }
+
+  function slideSC() {
+    var i;
+    var sportChampionshipImages = document.getElementsByClassName("sportChampionshipSlide");
+
+    for (i = 0; i < sportChampionshipImages.length; i++) {
+      sportChampionshipImages[i].style.display = "none";
+    }
+
+    indexSC++;
+    if (indexSC > sportChampionshipImages.length) {
+      indexSC = 1
+    }
+    sportChampionshipImages[indexSC - 1].style.display = "block";
+
+    setTimeout(slideSC, 4300);
+  }
+</script>
+
+
+<%- include("partials/footer"); -%>
